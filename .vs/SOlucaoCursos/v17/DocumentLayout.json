@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|c:\\users\\mauro lopes\\source\\repos\\solucaocursos\\projetocursos\\view\\frmcadcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|solutionrelative:projetocursos\\view\\frmcadcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\projetocursos\\view\\frmcadcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|solutionrelative:projetocursos\\view\\frmcadcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|c:\\users\\mauro lopes\\source\\repos\\solucaocursos\\projetocursos\\model\\dao\\cursodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|solutionrelative:projetocursos\\model\\dao\\cursodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|c:\\users\\mauro lopes\\source\\repos\\solucaocursos\\projetocursos\\model\\dto\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|solutionrelative:projetocursos\\model\\dto\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|c:\\users\\mauro lopes\\source\\repos\\solucaocursos\\projetocursos\\controller\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|solutionrelative:projetocursos\\controller\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|c:\\users\\mauro lopes\\source\\repos\\solucaocursos\\projetocursos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|solutionrelative:projetocursos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\projetocursos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C7176A8-EE47-4E39-9925-50B8A288179E}|ProjetoCursos\\ProjetoCursos.csproj|solutionrelative:projetocursos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CursoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Model\\DAO\\CursoDAO.cs",
+              "RelativeDocumentMoniker": "ProjetoCursos\\Model\\DAO\\CursoDAO.cs",
+              "ToolTip": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Model\\DAO\\CursoDAO.cs",
+              "RelativeToolTip": "ProjetoCursos\\Model\\DAO\\CursoDAO.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwE8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:20:01.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CursoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Model\\DTO\\CursoDTO.cs",
+              "RelativeDocumentMoniker": "ProjetoCursos\\Model\\DTO\\CursoDTO.cs",
+              "ToolTip": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Model\\DTO\\CursoDTO.cs",
+              "RelativeToolTip": "ProjetoCursos\\Model\\DTO\\CursoDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:12:14.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Controller\\CursoController.cs",
+              "RelativeDocumentMoniker": "ProjetoCursos\\Controller\\CursoController.cs",
+              "ToolTip": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Controller\\CursoController.cs",
+              "RelativeToolTip": "ProjetoCursos\\Controller\\CursoController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T12:43:22.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCadCursos.cs",
+              "DocumentMoniker": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\View\\FrmCadCursos.cs",
+              "RelativeDocumentMoniker": "ProjetoCursos\\View\\FrmCadCursos.cs",
+              "ToolTip": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\View\\FrmCadCursos.cs",
+              "RelativeToolTip": "ProjetoCursos\\View\\FrmCadCursos.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwDMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T12:35:54.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoCursos\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Form1.cs",
+              "RelativeToolTip": "ProjetoCursos\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T13:18:59.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCadCursos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\View\\FrmCadCursos.cs",
+              "RelativeDocumentMoniker": "ProjetoCursos\\View\\FrmCadCursos.cs",
+              "ToolTip": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\View\\FrmCadCursos.cs [Projeto]",
+              "RelativeToolTip": "ProjetoCursos\\View\\FrmCadCursos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:47:52.378Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoCursos\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mauro Lopes\\source\\repos\\SOlucaoCursos\\ProjetoCursos\\Form1.cs [Projeto]",
+              "RelativeToolTip": "ProjetoCursos\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:33:35.694Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
