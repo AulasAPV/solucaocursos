@@ -1,10 +1,11 @@
-﻿using ProjetoCursos.Model.DTO;
-using ProjetoCursos.Model.DAO;
+﻿using ProjetoCursos.Model.DAO;
+using ProjetoCursos.Model.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ProjetoCursos.Controller
 {
@@ -35,9 +36,12 @@ namespace ProjetoCursos.Controller
             return retornodao;
         }
 
-        public void DeletarCurso()
+        public bool DeletarCurso(int idcurso)
         {
-
+            bool retornodao = false;
+            CursoDAO cursodao = new CursoDAO();
+            retornodao = cursodao.Apagar(idcurso);
+            return retornodao;
         }
     }
 }

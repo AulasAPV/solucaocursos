@@ -79,6 +79,7 @@
             BtnBarraNovo.Name = "BtnBarraNovo";
             BtnBarraNovo.Size = new Size(68, 68);
             BtnBarraNovo.Text = "toolStripButton1";
+            BtnBarraNovo.Click += BtnBarraNovo_Click;
             // 
             // toolStripSeparator1
             // 
@@ -126,6 +127,7 @@
             BtnBarraApagar.Name = "BtnBarraApagar";
             BtnBarraApagar.Size = new Size(68, 68);
             BtnBarraApagar.Text = "toolStripButton1";
+            BtnBarraApagar.Click += BtnBarraApagar_Click;
             // 
             // LblNomeCurso
             // 
@@ -293,6 +295,7 @@
             TxtIdCurso.Name = "TxtIdCurso";
             TxtIdCurso.Size = new Size(125, 27);
             TxtIdCurso.TabIndex = 8;
+            TxtIdCurso.Visible = false;
             // 
             // FrmCadCursos
             // 

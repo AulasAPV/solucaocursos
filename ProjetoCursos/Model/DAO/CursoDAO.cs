@@ -82,7 +82,7 @@ namespace ProjetoCursos.Model.DAO
 
         }
 
-        public bool Apagar(CursoDTO cursodto)
+        public bool Apagar(int idcurso)
         {
             //Abrir o canal de comunicação
             con.Open();
@@ -95,7 +95,7 @@ namespace ProjetoCursos.Model.DAO
             //Colocando o envelope no canal de conexão
             envelope.Connection = con;
             //Colocar os valores vindo da tela no DELETE
-            envelope.Parameters.AddWithValue("@idcurso", cursodto.IdCurso);
+            envelope.Parameters.AddWithValue("@idcurso", idcurso);
             envelope.Prepare();
             int resultado = envelope.ExecuteNonQuery();
             //Fechar o canal de comunicação
