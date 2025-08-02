@@ -19,3 +19,4 @@ C:\Users\Mauro Lopes\source\repos\SOlucaoCursos\ProjetoCursos\obj\Debug\net8.0-w
 C:\Users\Mauro Lopes\source\repos\SOlucaoCursos\ProjetoCursos\bin\Debug\net8.0-windows\MySqlConnector.dll
 C:\Users\Mauro Lopes\source\repos\SOlucaoCursos\ProjetoCursos\obj\Debug\net8.0-windows\ProjetoCursos.csproj.AssemblyReference.cache
 C:\Users\Mauro Lopes\source\repos\SOlucaoCursos\ProjetoCursos\obj\Debug\net8.0-windows\ProjetoC.FC72ECC7.Up2Date
+C:\Users\Mauro Lopes\source\repos\SOlucaoCursos\ProjetoCursos\obj\Debug\net8.0-windows\ProjetoCursos.sourcelink.json

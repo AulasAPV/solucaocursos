@@ -26,9 +26,13 @@ namespace ProjetoCursos.Controller
             return listadecursos;
         }
 
-        public void AtualizarCurso()
+        public bool AtualizarCurso(int idcurso, string nomedocurso, string turma, string tipo, string status)
         {
-
+            bool retornodao = false;
+            CursoDTO cursodto = new CursoDTO(idcurso,nomedocurso, turma, tipo, status);
+            CursoDAO cursodao = new CursoDAO();
+            retornodao = cursodao.Atualizar(cursodto);
+            return retornodao;
         }
 
         public void DeletarCurso()

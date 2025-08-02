@@ -22,10 +22,13 @@ namespace ProjetoCursos.View
         private void BtnBarraSalvar_Click(object sender, EventArgs e)
         {
             string nomedocurso = "", turma = "", tipo = "", status = "";
+            int idcurso = 0;
             bool resultadosalvar = true;
 
 
             //Recuperacao dos Dados
+            //Recuperando o ID do Curso
+            idcurso = Convert.ToInt32(TxtIdCurso.Text);
             nomedocurso = TxtNomeCurso.Text;
             turma = CmbTurma.Text;
             if (RdWeb.Checked == true)
@@ -46,7 +49,14 @@ namespace ProjetoCursos.View
             }
 
             CursoController cursocontroller = new CursoController();
-            resultadosalvar = cursocontroller.SalvarCurso(nomedocurso, turma, tipo, status);
+            if (idcurso == 0) 
+            {
+                resultadosalvar = cursocontroller.SalvarCurso(nomedocurso, turma, tipo, status);
+            }
+            else
+            {
+                resultadosalvar = cursocontroller.AtualizarCurso(idcurso,nomedocurso, turma, tipo, status);
+            }
             if (resultadosalvar == true)
             {
                 MessageBox.Show("Dados salvos com sucesso!");
@@ -92,6 +102,8 @@ namespace ProjetoCursos.View
             tipo = DgvCursos.Rows[e.RowIndex].Cells[3].Value.ToString();
             status = DgvCursos.Rows[e.RowIndex].Cells[4].Value.ToString();
             //Preencher a Tela com os dados das variáveis
+            //ID do Curso
+            TxtIdCurso.Text = idcurso;
             //Nome do Curso
             TxtNomeCurso.Text = nomecurso;
             //Turma      

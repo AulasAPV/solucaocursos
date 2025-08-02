@@ -53,6 +53,7 @@
             ColTurma = new DataGridViewTextBoxColumn();
             ColTipo = new DataGridViewTextBoxColumn();
             ColStatus = new DataGridViewTextBoxColumn();
+            TxtIdCurso = new TextBox();
             BarraAplicacao.SuspendLayout();
             GrpbTipo.SuspendLayout();
             GrpbStatus.SuspendLayout();
@@ -286,11 +287,19 @@
             ColStatus.ReadOnly = true;
             ColStatus.Width = 125;
             // 
+            // TxtIdCurso
+            // 
+            TxtIdCurso.Location = new Point(633, 158);
+            TxtIdCurso.Name = "TxtIdCurso";
+            TxtIdCurso.Size = new Size(125, 27);
+            TxtIdCurso.TabIndex = 8;
+            // 
             // FrmCadCursos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1449, 450);
+            Controls.Add(TxtIdCurso);
             Controls.Add(DgvCursos);
             Controls.Add(GrpbStatus);
             Controls.Add(GrpbTipo);
@@ -341,5 +350,6 @@
         private DataGridViewTextBoxColumn ColTurma;
         private DataGridViewTextBoxColumn ColTipo;
         private DataGridViewTextBoxColumn ColStatus;
+        private TextBox TxtIdCurso;
     }
 }

@@ -82,14 +82,64 @@ namespace ProjetoCursos.Model.DAO
 
         }
 
-        public void Apagar()
+        public bool Apagar(CursoDTO cursodto)
         {
-            //DELETE
+            //Abrir o canal de comunicação
+            con.Open();
+            //Montar o comando SQL
+            comandoSql = "DELETE FROM curso WHERE idcurso = @idcurso";
+            //Criando um Envelope de Comando
+            envelope = new MySqlCommand();
+            //Colocando o comando SQL dentro do envelope
+            envelope.CommandText = comandoSql;
+            //Colocando o envelope no canal de conexão
+            envelope.Connection = con;
+            //Colocar os valores vindo da tela no DELETE
+            envelope.Parameters.AddWithValue("@idcurso", cursodto.IdCurso);
+            envelope.Prepare();
+            int resultado = envelope.ExecuteNonQuery();
+            //Fechar o canal de comunicação
+            con.Close();
+            if (resultado > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        public void Atualizar()
+        public bool Atualizar(CursoDTO cursodto)
         {
-            //UPDATE
+            //Abrir o canal de comunicação
+            con.Open();
+            //Montar o comando SQL
+            comandoSql = "UPDATE curso SET nomecurso = @nomecurso,turma=@turma,tipo=@tipo,status=@status WHERE idcurso = @idcurso";
+            //Criando um Envelope de Comando
+            envelope = new MySqlCommand();
+            //Colocando o comando SQL dentro do envelope
+            envelope.CommandText = comandoSql;
+            //Colocando o envelope no canal de conexão
+            envelope.Connection = con;
+            //Colocar os valores vindo da tela no UPDATE
+            envelope.Parameters.AddWithValue("@nomecurso", cursodto.Nomecurso);
+            envelope.Parameters.AddWithValue("@turma", cursodto.Turma);
+            envelope.Parameters.AddWithValue("@tipo", cursodto.Tipo);
+            envelope.Parameters.AddWithValue("@status", cursodto.Status);
+            envelope.Parameters.AddWithValue("@idcurso", cursodto.IdCurso);
+            envelope.Prepare();
+            int resultado = envelope.ExecuteNonQuery();
+            //Fechar o canal de comunicação
+            con.Close();
+            if (resultado > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
